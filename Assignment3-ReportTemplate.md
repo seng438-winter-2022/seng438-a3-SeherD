@@ -718,7 +718,7 @@ Metrics:
 
 We learned that branch coverage is much stronger than line coverage because line coverage does not always show that every condition in an if statement is being hit, making it less precise. Additionally, method coverage is more imprecise than line coverage, since the tests tend to miss out on variables being declared outside methods.
 
-**A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.**
+**A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation**
 
 One of the advantages of coverage-based testing is that the test suite is more thorough with the range of inputs accepted by the program. It gives the programmer a good idea of how well they are testing their programs to ensure robustness. This, in turn, ensures that the characteristics of each method are examined under a variety of conditions. The real disadvantage of this method is the intensive time it takes to develop a suite, and the extensive amount of memory that is required to create more tests. In contrast, requirements testing is effective when programmers can use their knowledge of the number of requirements that define a test suite to test the most appropriate aspects of a program. It is less intensive than coverage-based testing, as the programmer is not focused on testing every single aspect of a program. However, this leads to a less complete test suite. While requirements-based testing is a more targeted method than coverage-based testing, a programmer may be leaving untested features of a program behind in this method.
 
